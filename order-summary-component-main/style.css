@@ -1,0 +1,13 @@
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#top-img {
+  display: block;
+}
+
+#content {
+  display: block;
+}
