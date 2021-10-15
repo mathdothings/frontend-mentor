@@ -19,20 +19,16 @@ body {
   flex-direction: column;
 }
 
-article {
-  border-radius: 15px;
-  height: auto;
-}
-
 .text-center {
   text-align: center;
 }
 
 #top-img {
-  border-radius: 15px 15px 0 0;
+  border-radius: 1em 1em 0 0;
   width: 100vw;
 }
 
 #text {
-  margin: 20px;
+  margin: 1em;
+  height: fit-content;
 }
