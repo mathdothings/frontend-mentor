@@ -8,16 +8,31 @@
   text-decoration: none;
 }
 
-article {
+body {
+  margin: 0;
+}
+
+#container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-#content {
-  display: block;
+article {
+  border-radius: 15px;
+  height: auto;
 }
 
 .text-center {
   text-align: center;
+}
+
+#top-img {
+  border-radius: 15px 15px 0 0;
+  width: 100vw;
+}
+
+#text {
+  margin: 20px;
 }
