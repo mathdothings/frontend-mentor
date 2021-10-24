@@ -32,3 +32,32 @@ body {
   margin: 1em;
   height: fit-content;
 }
+
+#icon-music {
+  margin-top: 0.3em;
+  width: 3.5em;
+  height: 3.5em;
+}
+
+#plan-text {
+  margin: 1em;
+}
+
+#plan-panel {
+  display: flex;
+  justify-content: center;
+  width: 92vw;
+  border-radius: 0.7em;
+  background: hsl(225, 100%, 98%);
+  padding: 0.5em;
+  margin: 1em 0;
+}
+
+#cancel-button {
+  margin-top: 1.5em;
+  padding-left: 1em;
+}
+
+#cancel-button a:hover {
+  color: hsl(245, 75%, 52%);
+}
