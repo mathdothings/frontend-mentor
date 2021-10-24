@@ -41,6 +41,7 @@ h1 {
 .top-text {
   width: 80vw;
   margin: auto;
+  color: rgba(0, 0, 0, 55%);
 }
 
 #top-img {
@@ -71,6 +72,10 @@ h1 {
   margin: 1em auto;
   padding: 1em;
   width: 80vw;
+}
+
+#price {
+  color: rgba(0, 0, 0, 55%);
 }
 
 #cancel-button {
