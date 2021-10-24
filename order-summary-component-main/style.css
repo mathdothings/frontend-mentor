@@ -26,6 +26,10 @@ body {
   text-align: center;
 }
 
+.font-bold-900 {
+  font-weight: 900;
+}
+
 .font-bold-700 {
   font-weight: 700;
 }
@@ -35,7 +39,7 @@ body {
 }
 
 h1 {
-  font-size: 1.7em;
+  font-size: 1.8em;
 }
 
 .top-text {
