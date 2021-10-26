@@ -1,0 +1,13 @@
+.text-center {
+  text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
