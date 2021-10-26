@@ -4,10 +4,17 @@
 
 body {
   box-sizing: border-box;
+  font-size: 15px;
+  margin: 4em 1.5em;
 }
 
 article {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 1em;
+}
+
+#top-image {
+  width: 100%;
 }
