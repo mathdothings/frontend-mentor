@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   font-size: 15px;
   margin: 4em 1.5em;
+  background-color: hsl(233, 47%, 18%);
 }
 
 article {
@@ -13,8 +14,54 @@ article {
   flex-direction: column;
   justify-content: center;
   font-size: 1em;
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+  border-radius: 0.6em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #top-image {
   width: 100%;
+  border-radius: 0.6em 0.6em 0 0;
+  background-image: url("images/image-header-desktop.jpg");
+}
+
+#highlight {
+  color: hsl(277, 64%, 61%);
+}
+
+#head #main {
+  color: hsl(0, 0%, 100%);
+}
+
+#head {
+  font-size: 2em;
+}
+
+#head h1 {
+  margin: 1em 0.7em;
+}
+
+#main {
+  font-size: 1.2em;
+}
+
+#main p {
+  margin: 0.7em 1.5em;
+}
+
+#bottom {
+  font-size: 1.2em;
+}
+
+.slightly-transp-white-p{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.slightly-transp-white-stat {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.smaller {
+  font-size: 0.6em;
 }
