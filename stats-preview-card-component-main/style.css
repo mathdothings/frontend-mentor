@@ -23,7 +23,6 @@ article {
 #top-image {
   width: 100%;
   border-radius: 0.6em 0.6em 0 0;
-  background-image: url("images/image-header-desktop.jpg");
 }
 
 #highlight {
@@ -40,6 +39,7 @@ article {
 
 #head h1 {
   margin: 1em 0.7em;
+  line-height: 1em;
 }
 
 #main {
@@ -48,6 +48,7 @@ article {
 
 #main p {
   margin: 0.7em 1.5em;
+  line-height: 1.5em;
 }
 
 #bottom {
