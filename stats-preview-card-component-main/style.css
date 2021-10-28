@@ -14,6 +14,10 @@
   font-weight: 700;
 }
 
+.pink-overlay {
+  fill: pink;
+}
+
 body {
   box-sizing: border-box;
   font-size: 15px;
@@ -40,7 +44,7 @@ section {
 #top-image {
   width: 100%;
   border-radius: 0.6em 0.6em 0 0;
-  filter: brightness(50%) hue-rotate(100deg) !important;
+  filter: brightness(50%) opacity(50%) !important;
 }
 
 #highlight {
