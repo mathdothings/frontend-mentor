@@ -15,7 +15,7 @@
 }
 
 .pink-overlay {
-  background-color: #9702ac94;
+  background-color: hsl(276.6, 90.5%, 37.3%);
   border-radius: 0.6em 0.6em 0 0;
 }
 
@@ -31,21 +31,16 @@ article {
   flex-direction: column;
   justify-content: center;
   font-size: 1em;
-  background-color: hsl(244, 38%, 16%);
+  background-color: hsl(243.8, 39.3%, 23.9%, 0.69);
   color: white;
   border-radius: 0.6em;
   font-family: 'Red Hat Display', sans-serif;
-  filter: brightness(150%);
-}
-
-section {
-  filter: brightness(75%);
 }
 
 #top-image {
   width: 100%;
   border-radius: 0.6em 0.6em 0 0;
-  filter: brightness(50%) opacity(50%) !important;
+  filter: opacity(50%) !important;
   display: block;
 }
 
@@ -96,4 +91,15 @@ section {
 
 .attribution {
   color: white;
+  font-weight: 700;
+  margin-top: 10px;
+  line-height: 20px;
+  letter-spacing: 0.7px;
+  font-size: 0.8em;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(277, 64%, 61%);
+  letter-spacing: 0.7px;
 }
