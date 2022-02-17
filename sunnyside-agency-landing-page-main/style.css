@@ -17,4 +17,25 @@
 body {
   font-size: 18px;
   box-sizing: border-box;
+  background: gray;
+}
+
+#menu {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+#menu img {
+  display: block;
+}
+
+#menu li {
+  display: inline;
+  list-style: none;
+  padding: 0 1em;
+}
+
+#menu ul {
+  padding-left: 0;
 }
