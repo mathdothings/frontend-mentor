@@ -17,23 +17,38 @@
 body {
   font-size: 18px;
   box-sizing: border-box;
-  background: gray;
+  background: var(--dark-moderate-cyan);
+  color: white;
 }
 
 #menu {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
 }
 
 #menu img {
-  display: block;
+  width: 5em;
+  height: 1.2em;
 }
 
 #menu li {
   display: inline;
   list-style: none;
   padding: 0 1em;
+}
+
+#contact-button {
+  padding: 0.6em 1.2em;
+  background: white;
+  border-radius: 1.5em;
+  color: black;
+}
+
+#contact-button:hover {
+  background: black;
+  color: white;
 }
 
 #menu ul {
