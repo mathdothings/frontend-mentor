@@ -74,6 +74,9 @@ header {
 #menu ul {
   padding-left: 0;
 }
+#menu .fa-bars {
+  display: none;
+}
 
 .font-weight-400 {
   font-weight: 400;
@@ -107,6 +110,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 50vh;
 }
 
 .text-center {
@@ -117,8 +121,10 @@ header {
   body {
     font-size: 24px;
   }
-
   #menu ul {
     display: none;
   }
+  #menu .fa-bars {
+    display: inline-block;
+  } 
 }
