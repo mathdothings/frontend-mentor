@@ -17,9 +17,12 @@
     --satureted-cyan: #3dbeff;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
   font-size: 18px;
-  box-sizing: border-box;
   background: transparent;
   color: white;
   font-family: 'Barlow', sans-serif;
@@ -29,12 +32,12 @@ body {
 header {
   background-image: url("images/desktop/image-header.jpg");
   background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
 #header-arrow {
-  display: inline-block;
-  padding-top: 5em
+  padding-top: 3em
 }
 
 #menu {
@@ -42,6 +45,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
+  height: 15vh;
 }
 
 #menu img {
@@ -99,6 +103,10 @@ header {
   font-size: 1.3em;
   font-family: 'Fraunces', serif;
   letter-spacing: 0.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-center {
