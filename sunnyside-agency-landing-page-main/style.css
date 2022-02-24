@@ -127,7 +127,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+}
+
+.flex-child-1 {
+  flex: 1;
 }
 
 #transform-column img {
