@@ -12,9 +12,6 @@
   --dark-grayish-blue: hsl(232, 10%, 55%);
   --grayish-blue: hsl(210, 4%, 67%);
   --white: hsl(0, 0%, 100%);
-
-/* background ui colors */
-    --satureted-cyan: #3dbeff;
 }
 
 * {
@@ -37,7 +34,7 @@ header {
 }
 
 #header-arrow {
-  padding-top: 3em
+  padding-top: 3em;
 }
 
 #menu {
@@ -102,6 +99,18 @@ header {
   font-family: 'Barlow', sans-serif;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
 #top {
   font-size: 1.3em;
   font-family: 'Fraunces', serif;
@@ -110,21 +119,48 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
 }
 
-.text-center {
-  text-align: center;
+.two-columns-layout {
+  color: black;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#transform-column img {
+  display: inline-block;
+}
+
+.column-center-content {
+  padding: 9%
+}
+
+.column-center-content h2 {
+  font-size: 2em;
+}
+
+.column-center-content p {
+  line-height: 1.7em;
+  color: var(--grayish-blue);
+}
+
+.column-center-content h3 {
+  margin-top: 2em;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 800px) {
   body {
-    font-size: 24px;
+    font-size: 20px;
   }
   #menu ul {
     display: none;
   }
   #menu .fa-bars {
     display: inline-block;
+    font-size: 1.5em;
   } 
 }
