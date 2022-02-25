@@ -122,14 +122,23 @@ header {
 }
 
 .two-columns-layout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: black;
 }
 
-.two-columns-layout-child {
+.two-columns-layout-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.two-columns-layout-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
   flex: 1;
+  justify-content: center;
+  width: 50%;
 }
 
 .content-box {
