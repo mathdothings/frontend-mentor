@@ -122,37 +122,30 @@ header {
 }
 
 .two-columns-layout {
-  color: black;
-  flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
-.flex-child-1 {
+.two-columns-layout-child {
   flex: 1;
 }
 
-#transform-column img {
-  display: inline-block;
+.content-box {
+  margin: 0 10em;
 }
 
-.column-center-content {
-  padding: 9%
-}
-
-.column-center-content h2 {
+.content-box h2 {
   font-size: 2em;
 }
 
-.column-center-content p {
-  line-height: 1.7em;
+.content-box p {
   color: var(--grayish-blue);
 }
 
-.column-center-content h3 {
-  margin-top: 2em;
-  font-size: 1em;
+.content-box h3 {
+  font-size: 0.9em;
 }
 
 @media screen and (max-width: 800px) {
