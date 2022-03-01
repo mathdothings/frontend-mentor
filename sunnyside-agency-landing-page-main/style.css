@@ -155,6 +155,9 @@ header {
 
 .content-box h3 {
   font-size: 0.9em;
+  width: max-content;
+  border-bottom: 5px solid var(--yellow);
+  border-radius: 10%;
 }
 
 @media screen and (max-width: 800px) {
@@ -168,4 +171,7 @@ header {
     display: inline-block;
     font-size: 1.5em;
   } 
+  article {
+    text-align: center;
+  }
 }
