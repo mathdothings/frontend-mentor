@@ -160,6 +160,14 @@ header {
   border-radius: 10%;
 }
 
+#graphic-design-content {
+  background-image: url("images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
 @media screen and (max-width: 800px) {
   body {
     font-size: 20px;
