@@ -160,8 +160,20 @@ header {
   border-radius: 10%;
 }
 
+.content-box .soft-red {
+  border-bottom: 5px solid var(--soft-red);
+  border-radius: 10%;
+}
+
 #graphic-design-content {
   background-image: url("images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+#photography-content {
+  background-image: url("images/desktop/image-photography.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
