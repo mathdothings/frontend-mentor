@@ -165,18 +165,24 @@ header {
   border-radius: 10%;
 }
 
+.tiledbg {
+  margin: auto;
+}
+
 #graphic-design-content {
   background-image: url("images/desktop/image-graphic-design.jpg");
-  background-size: cover;
+  width: 720px;
+  height: 700px;
   background-repeat: no-repeat;
-  height: 100%;
+  margin: auto;
 }
 
 #photography-content {
   background-image: url("images/desktop/image-photography.jpg");
-  background-size: cover;
+  width: 720px;
+  height: 700px;
   background-repeat: no-repeat;
-  height: 100%;
+  margin: auto;
 }
 
 

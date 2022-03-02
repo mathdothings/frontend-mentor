@@ -1,2 +1,2 @@
-var elem = document.querySelector('.two-columns-layout-column');
+var elem = document.querySelector('#box');
 console.log(elem);
