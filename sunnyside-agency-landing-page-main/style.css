@@ -177,6 +177,10 @@ header {
   margin: auto;
 }
 
+#graphic-design-content h2{
+  color: var(--dark-desaturated-cyan);
+}
+
 #photography-content {
   background-image: url("images/desktop/image-photography.jpg");
   width: 720px;
