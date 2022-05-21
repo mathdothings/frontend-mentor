@@ -24,6 +24,7 @@ body {
   color: white;
   font-family: 'Barlow', sans-serif;
   margin: 0;
+  line-height: 1.8em;
 }
 
 header {
@@ -99,6 +100,26 @@ header {
   font-family: 'Barlow', sans-serif;
 }
 
+.text-darker {
+  color: var(--very-dark-desaturated-blue);
+}
+
+.text-lighter {
+  color: var(--dark-grayish-blue);
+}
+
+#text-graphic {
+  color: var(--dark-desaturated-cyan);
+}
+
+#text-photo {
+  color: var(--dark-blue);
+}
+
+.smaller-h2 {
+  font-size: 1.5em;
+}
+
 .text-center {
   text-align: center;
 }
@@ -121,20 +142,77 @@ header {
   align-items: center;
 }
 
+section h2 {
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+section h3 {
+  font-size: 1em;
+}
+
 .grid-layout {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
 }
 
-.left-column  img{
+.left-column {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-column {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-column div {
+  margin: 5em 3.5em 5em 8em
+}
+
+.right-column div {
+  margin: 5em 8em 5em 3.5em;
+}
+
+.left-column  img {
   width: 100%;
+  height: 100%;
   display: block;
 }
 
 .right-column img {
   width: 100%;
+  height: 100%;
   display: block;
+}
+
+.left-column.bgimg {
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.right-column.bgimg {
+  background-image: url("./images/desktop/image-photography.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left-column.bgimg div {
+  margin: 0 7em;
+  margin-top: 14em;
+}
+
+.right-column.bgimg div {
+  margin: 0 7em;
+  margin-top: 14em;
 }
 
 @media screen and (max-width: 800px) {
