@@ -123,16 +123,18 @@ header {
 
 .grid-layout {
   display: grid;
-  grid-template-columns: repeat(2, 1f);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
 }
 
-.left-column {
-
+.left-column  img{
+  width: 100%;
+  display: block;
 }
 
-.right-column {
-
+.right-column img {
+  width: 100%;
+  display: block;
 }
 
 @media screen and (max-width: 800px) {
