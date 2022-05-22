@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="script.js"></script>
-
+    <section></section>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
@@ -17,7 +17,6 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Sunnyside Agency Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,15 +28,18 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;800&display=swap"
       rel="stylesheet"
     />
-
+    <section></section>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 0.85em;
         text-align: center;
+        background-color: black;
+        opacity: 0.85;
+        letter-spacing: 0.2em;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: darkgoldenrod;
       }
     </style>
   </head>
@@ -60,7 +62,9 @@
         </section>
         <section id="top" class="text-center font-weight-800">
           <div><h2>WE ARE CREATIVES</h2></div>
-          <div><img src="images/icon-arrow-down.svg" id="header-arrow" /></div>
+          <div>
+            <img src="images/icon-arrow-down.svg" id="header-arrow" />
+          </div>
         </section>
       </header>
       <main style="color: black">
@@ -158,24 +162,28 @@
           </section>
         </article>
       </main>
-      <footer class="footer-grid">
-        <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" />
-        <img src="./images/desktop/image-gallery-orange.jpg" alt="" />
-        <img src="./images/desktop/image-gallery-cone.jpg" alt="" />
-        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
-        <ul>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
-        </ul>
+      <footer>
+        <section class="footer-flex">
+          <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" />
+          <img src="./images/desktop/image-gallery-orange.jpg" alt="" />
+          <img src="./images/desktop/image-gallery-cone.jpg" alt="" />
+          <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+        </section>
+        <section class="footer-flex contacts">
+          <img id="footer-logo" src="images/logo.svg" alt="sunnyside's logo" />
+          <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+          </ul>
+        </section>
       </footer>
       <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">@mathdothings</a>.
       </div>
     </article>
   </body>
-</html>
 </html>
