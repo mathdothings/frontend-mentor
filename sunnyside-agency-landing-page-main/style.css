@@ -17,9 +17,11 @@
 * {
     box-sizing: border-box;
 }
-
-body {
+html {
   font-size: 18px;
+}
+body {
+  font-size: 1em;
   background: transparent;
   color: white;
   font-family: 'Barlow', sans-serif;
@@ -213,6 +215,41 @@ section h3 {
 .right-column.bgimg div {
   margin: 0 7em;
   margin-top: 14em;
+}
+
+#client-testimonial-title {
+  margin: 5em;
+  margin-bottom: 4em;
+  margin-top: 7em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.testimonial-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial {
+  margin: 0 2.5em;
+  color: var(--very-dark-grayish-blue);
+}
+
+.testimonial h3 {
+  font-size: 1.3em;
+  margin-bottom: 0.05em;
+  color: black;
+}
+
+.testimonial p {
+  margin-top: 0;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 5em;
 }
 
 @media screen and (max-width: 800px) {
