@@ -252,6 +252,17 @@ section h3 {
   width: 5em;
 }
 
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: 5em;
+  margin-top: 10em;
+}
+
+.footer-grid img {
+  display: block;
+}
+
 @media screen and (max-width: 800px) {
   body {
     font-size: 20px;
