@@ -68,7 +68,7 @@ header {
 }
 
 #contact-button:hover {
-  background: black;
+  background: hsla(167, 33%, 57%, 0.5);
   color: white;
 }
 
@@ -152,6 +152,14 @@ section h2 {
 
 section h3 {
   font-size: 1em;
+}
+
+section h3:hover {
+  text-decoration: underline solid var(--yellow) 7px;
+}
+
+.soft-red:hover {
+  text-decoration: underline solid var(--soft-red) 7px;
 }
 
 .grid-layout {
@@ -295,6 +303,15 @@ section h3 {
   font-size: 1.2em;
 }
 
+.footer-links a {
+  text-decoration: none;
+}
+
+#footer-links li:hover {
+  filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(320deg)
+    brightness(102%) contrast(104%);
+}
+
 #contact-buttons li {
   list-style: none;
   display: inline;
@@ -305,6 +322,11 @@ section h3 {
 #contact-buttons img {
   width: 1.2em;
   filter: brightness(40%);
+}
+
+#contact-buttons img:hover {
+  filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(360deg)
+    brightness(110%) contrast(104%);
 }
 
 @media screen and (max-width: 800px) {

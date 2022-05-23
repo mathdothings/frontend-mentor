@@ -34,12 +34,19 @@
       .attribution {
         font-size: 0.85em;
         text-align: center;
-        background-color: black;
+        background-color: darkorange;
         opacity: 0.85;
         letter-spacing: 0.2em;
       }
+
+      .attribution p {
+        margin: 0;
+        color: black;
+      }
+
       .attribution a {
-        color: darkgoldenrod;
+        color: darkgreen;
+        text-decoration: none;
       }
     </style>
   </head>
@@ -79,7 +86,9 @@
                 brands grow fast. Engage your clients through compelling visuals
                 that do most of the marketing for you.
               </p>
-              <h3 class="font-family-fraunces text-darker">LEARN MORE</h3>
+              <h3 class="font-family-fraunces text-darker">
+                &nbsp;LEARN MORE&nbsp;
+              </h3>
             </div>
           </section>
           <section class="right-column bg">
@@ -99,7 +108,7 @@
                 extend your brand in digital places.
               </p>
               <h3 class="font-family-fraunces text-darker">
-                <span class="soft-red">LEARN MORE</span>
+                <span class="soft-red">&nbsp;LEARN MORE&nbsp;</span>
               </h3>
             </div>
           </section>
@@ -171,10 +180,10 @@
         </section>
         <section class="footer-flex contacts">
           <img id="footer-logo" src="images/logo.svg" alt="sunnyside's logo" />
-          <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
+          <ul id="footer-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
           </ul>
           <ul id="contact-buttons">
             <li>
@@ -193,10 +202,17 @@
         </section>
       </footer>
       <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">@mathdothings</a>.
+        <p>
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/mathdothings" target="_blank"
+            >@mathdothings</a
+          >.
+        </p>
       </div>
     </article>
   </body>
