@@ -4,7 +4,7 @@
   --yellow: hsl(51, 100%, 49%);
   --dark-desaturated-cyan: hsl(167, 40%, 24%); /* graphic design text */
   --dark-blue: hsl(198, 62%, 26%); /* photography text */
-  --dark-moderate-cyan: hsl(168.3, 33%, 57.3%); /* footer */
+  --dark-moderate-cyan: hsl(168, 33%, 57%); /* footer */
 
   /* neutral colors */
   --very-dark-desaturated-blue: hsl(212, 27%, 19%);
@@ -230,7 +230,7 @@ section h3 {
 .testimonial-flex {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .testimonial {
@@ -246,6 +246,7 @@ section h3 {
 
 .testimonial p {
   margin-top: 0;
+  height: 5em;
 }
 
 .testimonial img {
@@ -258,7 +259,6 @@ section h3 {
   align-items: center;
   justify-content: center;
   margin-top: 10em;
-  width: minmax(0, 100vw);
 }
 
 .footer-flex img {
@@ -267,10 +267,10 @@ section h3 {
 }
 
 #footer-logo {
-  width: 8em;
+  width: 10em;
   filter: invert(65%) sepia(10%) saturate(2198%) hue-rotate(117deg)
     brightness(89%) contrast(81%);
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
 }
 
 .footer-flex.contacts {
@@ -282,6 +282,7 @@ section h3 {
 
 .footer-flex.contacts ul {
   padding-left: 0;
+  display: inline-flex;
 }
 
 .footer-flex.contacts li {
@@ -290,7 +291,20 @@ section h3 {
   margin: 1.5em;
   color: var(--dark-desaturated-cyan);
   font-weight: 100;
-  opacity: 0.6;
+  opacity: 0.7;
+  font-size: 1.2em;
+}
+
+#contact-buttons li {
+  list-style: none;
+  display: inline;
+  margin: 0.5em;
+  padding-left: 0.5em;
+}
+
+#contact-buttons img {
+  width: 1.2em;
+  filter: brightness(40%);
 }
 
 @media screen and (max-width: 800px) {
