@@ -1,7 +1,7 @@
 :root {
   /* primary colors */
   --soft-red: hsl(7, 99%, 70%);
-  --yellow: hsl(51, 100%, 49%);
+  --soft-yellow: hsl(51, 100%, 49%);
   --dark-desaturated-cyan: hsl(167, 40%, 24%); /* graphic design text */
   --dark-blue: hsl(198, 62%, 26%); /* photography text */
   --dark-moderate-cyan: hsl(168, 33%, 57%); /* footer */
@@ -162,6 +162,10 @@ section h3:hover {
   text-decoration: underline solid var(--soft-red) 7px;
 }
 
+.soft-yellow:hover {
+  text-decoration: underline solid var(--soft-yellow) 7px;
+}
+
 .grid-layout {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -303,13 +307,14 @@ section h3:hover {
   font-size: 1.2em;
 }
 
-.footer-links a {
+#footer-links a {
   text-decoration: none;
+  color: hsla(167.6, 49.3%, 27.1%, 0.65);
 }
 
 #footer-links li:hover {
-  filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(320deg)
-    brightness(102%) contrast(104%);
+  filter: invert(150%) sepia(100%) saturate(0%) hue-rotate(360deg)
+    brightness(150%) contrast(150%);
 }
 
 #contact-buttons li {
@@ -325,8 +330,8 @@ section h3:hover {
 }
 
 #contact-buttons img:hover {
-  filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(360deg)
-    brightness(110%) contrast(104%);
+  filter: invert(150%) sepia(100%) saturate(0%) hue-rotate(360deg)
+    brightness(150%) contrast(150%);
 }
 
 @media screen and (max-width: 800px) {
