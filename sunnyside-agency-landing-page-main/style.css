@@ -334,18 +334,85 @@ section h3:hover {
     brightness(150%) contrast(150%);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 375px) {
   body {
-    font-size: 20px;
+    font-size: 16px;
   }
+
   #menu ul {
     display: none;
   }
+
   #menu .fa-bars {
     display: inline-block;
     font-size: 1.5em;
   }
+
   article {
     text-align: center;
+  }
+
+  .grid-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .left-column,
+  .right-column {
+    height: fit-content;
+  }
+
+  .left-column div,
+  .right-column div {
+    margin: 1em 3em;
+    text-align: center;
+  }
+
+  .left-column h2,
+  .right-column h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .left-column.bgimg div,
+  .right-column.bgimg div {
+    margin-top: 12em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  #client-testimonial-title {
+    margin: 4em 1em;
+    font-size: 1em;
+  }
+
+  .testimonial-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .testimonial p {
+    margin-top: 0;
+    height: 7em;
+  }
+
+  .footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .footer-flex img {
+    display: block;
+    width: 50vw;
+  }
+
+  .footer-flex.contacts {
+    padding: 0;
+    padding: 3em 0;
   }
 }
