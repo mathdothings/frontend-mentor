@@ -75,6 +75,10 @@ header {
 #menu ul {
   padding-left: 0;
 }
+
+#menu img[src*="hamburger"] {
+  display: none;
+}
 #menu .fa-bars {
   display: none;
 }
@@ -343,6 +347,11 @@ section h3:hover {
     display: none;
   }
 
+  #menu img[src*="hamburger"] {
+    display: block;
+    width: 2em;
+  }
+
   #menu .fa-bars {
     display: inline-block;
     font-size: 1.5em;
@@ -404,10 +413,12 @@ section h3:hover {
 
   #text-graphic {
     margin-top: 20em;
+    margin-bottom: 3em;
   }
 
   #text-photo {
     margin-top: 20em;
+    margin-bottom: 3em;
   }
 
   #client-testimonial-title {
