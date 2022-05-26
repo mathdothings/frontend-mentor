@@ -75,6 +75,10 @@ header {
 #menu ul {
   padding-left: 0;
 }
+
+#menu img[src*="hamburger"] {
+  display: none;
+}
 #menu .fa-bars {
   display: none;
 }
@@ -309,7 +313,7 @@ section h3:hover {
 
 #footer-links a {
   text-decoration: none;
-  color: hsla(167.6, 49.3%, 27.1%, 0.65);
+  color: hsl(167, 49%, 27%);
 }
 
 #footer-links li:hover {
@@ -343,6 +347,11 @@ section h3:hover {
     display: none;
   }
 
+  #menu img[src*="hamburger"] {
+    display: block;
+    width: 2em;
+  }
+
   #menu .fa-bars {
     display: inline-block;
     font-size: 1.5em;
@@ -352,8 +361,29 @@ section h3:hover {
     text-align: center;
   }
 
+  #menu {
+    padding: 2em;
+  }
+
+  section h2 {
+    font-size: 2em;
+    line-height: 1.4em;
+  }
+
+  .soft-red {
+    text-decoration: underline solid var(--soft-red) 7px;
+  }
+
+  .soft-yellow {
+    text-decoration: underline solid var(--soft-yellow) 7px;
+  }
+
   .grid-layout {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  #order-first {
+    order: -1;
   }
 
   .left-column,
@@ -379,6 +409,16 @@ section h3:hover {
     margin-bottom: 1em;
     margin-left: 2em;
     margin-right: 2em;
+  }
+
+  #text-graphic {
+    margin-top: 20em;
+    margin-bottom: 3em;
+  }
+
+  #text-photo {
+    margin-top: 20em;
+    margin-bottom: 3em;
   }
 
   #client-testimonial-title {
