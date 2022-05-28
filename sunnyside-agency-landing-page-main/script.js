@@ -33,10 +33,13 @@ function hideMobileMenu() {
 }
 
 // listen for 'click' events on browser window and show/hide mobile menu
+var windowSize = window.innerWidth;
 window.addEventListener("click", function (e) {
-  if (menuButton.contains(e.target) || menuBar.contains(e.target)) {
-    showMobileMenu();
-  } else {
-    hideMobileMenu();
+  if (windowSize <= 375) {
+    if (menuButton.contains(e.target) || menuBar.contains(e.target)) {
+      showMobileMenu();
+    } else {
+      hideMobileMenu();
+    }
   }
 });
