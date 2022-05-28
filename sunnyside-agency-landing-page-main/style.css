@@ -60,14 +60,14 @@ header {
   padding: 0 1em;
 }
 
-#contact-button {
+.contact-button {
   padding: 0.7em 1.5em;
   background: white;
   border-radius: 1.5em;
   color: black;
 }
 
-#contact-button:hover {
+.contact-button:hover {
   background: hsla(167, 33%, 57%, 0.5);
   color: white;
 }
@@ -321,19 +321,19 @@ section h3:hover {
     brightness(150%) contrast(150%);
 }
 
-#contact-buttons li {
+#social-networks-buttons li {
   list-style: none;
   display: inline;
   margin: 0.5em;
   padding-left: 0.5em;
 }
 
-#contact-buttons img {
+#social-networks-buttons img {
   width: 1.2em;
   filter: brightness(40%);
 }
 
-#contact-buttons img:hover {
+#social-networks-buttons img:hover {
   filter: invert(150%) sepia(100%) saturate(0%) hue-rotate(360deg)
     brightness(150%) contrast(150%);
 }
@@ -343,6 +343,10 @@ section h3:hover {
     font-size: 16px;
   }
 
+  .flex-center {
+    display: none;
+  }
+
   #menu ul {
     display: none;
   }
@@ -350,6 +354,11 @@ section h3:hover {
   #menu img[src*="hamburger"] {
     display: block;
     width: 2em;
+  }
+
+  .contact-button {
+    background-color: var(--soft-yellow);
+    color: black;
   }
 
   #menu .fa-bars {

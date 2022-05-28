@@ -1,19 +1,23 @@
+// global scope variables for simplicity
 var menuButton = document.querySelector("#menu img[src*='hamburger']");
-var origMenuBar = document.querySelector("#menu ul");
-var origMenuBarItem = document.querySelectorAll("#menu li");
-var menuBar = origMenuBar;
-var menuBarItem = origMenuBarItem;
+var menuBar = document.querySelector("#menu ul");
+var menuList = document.querySelector(".flex-center").style;
+var menuBarItem = document.querySelectorAll("#menu li");
 
 function showMobileMenu() {
-  menuButton.style.opacity = 0.7;
-  let mbStyle = menuBar.style;
-  mbStyle.display = "flex";
-  mbStyle.position = "absolute";
-  mbStyle.top = "6em";
-  mbStyle.flexDirection = "column";
-  mbStyle.backgroundColor = "white";
-  mbStyle.width = "83vw";
-  mbStyle.padding = "inherit";
+  menuButton.style.opacity = 0.5;
+  menuList.display = "flex";
+  menuList.position = "absolute";
+  menuList.justifyContent = "center";
+  menuList.left = "50vw";
+  menuBar.style.display = "flex";
+  menuBar.style.position = "absolute";
+  menuBar.style.top = "2em";
+  menuBar.style.flexDirection = "column";
+  menuBar.style.backgroundColor = "white";
+  menuBar.style.width = "83vw";
+  menuBar.style.padding = "1em";
+  menuBar.style.alignItems = "center";
 
   // change list items
   for (let li of menuBarItem) {
@@ -25,9 +29,10 @@ function showMobileMenu() {
 
 function hideMobileMenu() {
   menuButton.style.opacity = 1;
-  menuBar.style.display = "none";
+  menuList.display = "none";
 }
 
+// listen for 'click' events on browser window and show/hide mobile menu
 window.addEventListener("click", function (e) {
   if (menuButton.contains(e.target) || menuBar.contains(e.target)) {
     showMobileMenu();
