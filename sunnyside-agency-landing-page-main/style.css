@@ -79,9 +79,6 @@ header {
 #menu img[src*="hamburger"] {
   display: none;
 }
-#menu .fa-bars {
-  display: none;
-}
 
 .font-weight-400 {
   font-weight: 400;
@@ -361,9 +358,8 @@ section h3:hover {
     color: black;
   }
 
-  #menu .fa-bars {
-    display: inline-block;
-    font-size: 1.5em;
+  #header-arrow {
+    padding-top: 0;
   }
 
   article {
