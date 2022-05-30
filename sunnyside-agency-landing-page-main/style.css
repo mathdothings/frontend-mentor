@@ -17,9 +17,11 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   font-size: 18px;
 }
+
 body {
   font-size: 1em;
   background: transparent;
@@ -155,10 +157,6 @@ section h3 {
   font-size: 1em;
 }
 
-section h3:hover {
-  text-decoration: underline solid var(--yellow) 7px;
-}
-
 .soft-red:hover {
   text-decoration: underline solid var(--soft-red) 7px;
 }
@@ -247,13 +245,14 @@ section h3:hover {
 }
 
 .testimonial {
-  margin: 0 2.5em;
+  margin: 0 2em;
   color: var(--very-dark-grayish-blue);
 }
 
 .testimonial h3 {
   font-size: 1.3em;
-  margin-bottom: 0.05em;
+  margin-top: 2em;
+  margin-bottom: 0;
   color: black;
 }
 
@@ -436,6 +435,18 @@ section h3:hover {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .testimonial {
+    margin: 0 2em;
+    color: var(--very-dark-grayish-blue);
+  }
+
+  .testimonial h3 {
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
   }
 
   .testimonial p {
